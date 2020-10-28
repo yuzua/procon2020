@@ -17,3 +17,35 @@ $docker-compose up -d ＃コンテナをバックグラウンドで起動
 $docker-compose ps ＃コンテナの起動状態を確認
 $docker-compose down #起動中のコンテナを停止
 ```
+
+
+## Gitコマンド
+自分のリポジトリをローカルにクローン
+```
+$ git clone 自分のリポURL　
+```
+リモートの追加
+```
+$ git git remote add リモート名　リモートURL
+```
+ブランチを指定してpull
+```
+$ git pull origin django
+```
+カレントディレクトリの変更をステージング
+```
+$ git add .
+```
+変更をコミット(-mオプションでコメントを入力)
+```
+$ git commit -m '変更メッセージ入力'
+```
+変更を自分のリモートリポジトリにpush
+```
+$ git push origin ブランチ名
+```
+
+## PostgreSQLをpipenvでインストール
+```
+$pipenv install psycopg2-binary
+```
