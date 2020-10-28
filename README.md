@@ -26,11 +26,11 @@ $ git clone 自分のリポURL　
 ```
 リモートの追加
 ```
-$ git git remote add リモート名　リモートURL
+$ git remote add リモート名　リモートURL
 ```
 ブランチを指定してpull
 ```
-$ git pull origin django
+$ git pull origin ブランチ名
 ```
 カレントディレクトリの変更をステージング
 ```
@@ -45,7 +45,7 @@ $ git commit -m '変更メッセージ入力'
 $ git push origin ブランチ名
 ```
 
-## PostgreSQLをpipenvでインストール
+## psycopg2-binary(djangoでpostgresを使えるようにするやつ)をpipenvでインストール
 ```
-$pipenv install psycopg2-binary
+$ pipenv install psycopg2-binary
 ```
