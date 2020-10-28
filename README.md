@@ -15,7 +15,9 @@ python manage.py runserver 0.0.0.0:8000 #サーバー起動
 ```
 $docker-compose up -d ＃コンテナをバックグラウンドで起動
 $docker-compose ps ＃コンテナの起動状態を確認
-$docker-compose down #起動中のコンテナを停止
+$docker-compose down #起動中のコンテナを停止しコンテナを削除する
+$docker-compose stop #起動中のコンテナを停止
+$docker-compose start #コンテナを起動 
 ```
 
 
